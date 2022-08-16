@@ -1,0 +1,301 @@
+# Reading pref.tcl
+project open C:/intelFPGA/20.1/AssignmentII.mpf
+# Loading project AssignmentII
+# Compile of ALU.vhd was successful.
+vsim -gui work1.alu
+# vsim -gui work1.alu 
+# Start time: 13:26:45 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1000 0
+force -freeze sim:/alu/B 1010 0
+force -freeze sim:/alu/MS 000 0
+force -freeze sim:/alu/Ci 1 0
+run
+add wave -position insertpoint sim:/alu/*
+vsim work1.alu
+# End time: 13:37:50 on Sep 16,2021, Elapsed time: 0:11:05
+# Errors: 0, Warnings: 2
+# vsim work1.alu 
+# Start time: 13:37:50 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1001 0
+force -freeze sim:/alu/B 1001 0
+force -freeze sim:/alu/MS 001 0
+run
+vsim work1.alu
+# End time: 13:58:36 on Sep 16,2021, Elapsed time: 0:20:46
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 13:58:36 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 0001 0
+force -freeze sim:/alu/MS 010 0
+run
+vsim work1.alu
+# End time: 14:07:58 on Sep 16,2021, Elapsed time: 0:09:22
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 14:07:58 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1000 0
+force -freeze sim:/alu/B 0000 0
+force -freeze sim:/alu/MS 011 0
+force -freeze sim:/alu/Ci 0 0
+run
+vsim work1.alu
+# End time: 14:15:23 on Sep 16,2021, Elapsed time: 0:07:25
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 14:15:23 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1010 0
+force -freeze sim:/alu/MS 100 0
+run
+vsim work1.alu
+# End time: 14:18:28 on Sep 16,2021, Elapsed time: 0:03:05
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 14:18:28 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1011 0
+force -freeze sim:/alu/B 0001 0
+force -freeze sim:/alu/MS 101 0
+run
+vsim work1.alu
+# End time: 14:21:37 on Sep 16,2021, Elapsed time: 0:03:09
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 14:21:37 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 0101 0
+force -freeze sim:/alu/B 1010 0
+force -freeze sim:/alu/MS 110 0
+run
+vsim work1.alu
+# End time: 14:24:00 on Sep 16,2021, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 1
+# vsim work1.alu 
+# Start time: 14:24:00 on Sep 16,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work1.alu(structure)
+# Loading work1.adder_4bit(data1)
+# Loading work1.fa(behavior)
+add wave -position insertpoint sim:/alu/*
+noforce sim:/alu/A
+noforce sim:/alu/B
+noforce sim:/alu/MS
+noforce sim:/alu/Ci
+noforce sim:/alu/S
+noforce sim:/alu/Co
+noforce sim:/alu/t
+noforce sim:/alu/u
+noforce sim:/alu/v
+noforce sim:/alu/w
+noforce sim:/alu/o1
+noforce sim:/alu/o2
+noforce sim:/alu/p
+noforce sim:/alu/t1
+noforce sim:/alu/t2
+noforce sim:/alu/t3
+noforce sim:/alu/t4
+noforce sim:/alu/n
+noforce sim:/alu/o
+force -freeze sim:/alu/A 1011 0
+force -freeze sim:/alu/MS 111 0
+run
+# End time: 14:27:12 on Sep 16,2021, Elapsed time: 0:03:12
+# Errors: 0, Warnings: 1
