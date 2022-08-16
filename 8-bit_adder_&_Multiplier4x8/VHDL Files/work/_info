@@ -1,0 +1,238 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1
+Eand2
+Z1 w1630525553
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 60
+R0
+Z4 8C:/intelFPGA/20.1/AND2.vhd
+Z5 FC:/intelFPGA/20.1/AND2.vhd
+l0
+L4 1
+VIa<C5fT9[Hn30=0mP`ONH1
+!s100 ZiORGY[3W0cKWDd@=DJZc1
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1630565044
+!i10b 1
+Z8 !s108 1630565043.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/AND2.vhd|
+Z10 !s107 C:/intelFPGA/20.1/AND2.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adf
+R2
+R3
+DEx4 work 4 and2 0 22 Ia<C5fT9[Hn30=0mP`ONH1
+!i122 60
+l10
+L9 4
+Vj65bQNHN1<TBV_>9nPTfU3
+!s100 ]hoa`FLmN0eC3lk4Tf8Fk3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Efa
+Z13 w1630523613
+R2
+R3
+!i122 61
+R0
+Z14 8C:/intelFPGA/20.1/FullAdder.vhd
+Z15 FC:/intelFPGA/20.1/FullAdder.vhd
+l0
+L4 1
+Vf__=8U2YeTO<;k@<7jLK83
+!s100 ^M>M>i;N]hKRoKPESggdP1
+R6
+32
+R7
+!i10b 1
+Z16 !s108 1630565044.000000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/FullAdder.vhd|
+Z18 !s107 C:/intelFPGA/20.1/FullAdder.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 2 fa 0 22 f__=8U2YeTO<;k@<7jLK83
+!i122 61
+l10
+L9 5
+VD>ZY4nSB=23iOdGgK>T>Q0
+!s100 P8WYbJIeo[9W_zc@LTH5:0
+R6
+32
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eg8bfa
+Z19 w1630551461
+R2
+R3
+!i122 63
+R0
+Z20 8C:/intelFPGA/20.1/G8BFA.vhd
+Z21 FC:/intelFPGA/20.1/G8BFA.vhd
+l0
+L3 1
+VY1UCDaajCC4g2ibSiM9_J2
+!s100 M`Xab_eRi77GcSd7@AkCo1
+R6
+32
+R7
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/G8BFA.vhd|
+Z23 !s107 C:/intelFPGA/20.1/G8BFA.vhd|
+!i113 1
+R11
+R12
+Adata1
+R2
+R3
+DEx4 work 5 g8bfa 0 22 Y1UCDaajCC4g2ibSiM9_J2
+!i122 63
+l20
+L11 19
+V[P`FTR5GCgmzTYneONPgQ2
+!s100 ZYQUA>WJzl40l]hCS3A[82
+R6
+32
+R7
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R11
+R12
+Egbfa
+Z24 w1630545882
+R2
+R3
+!i122 62
+R0
+Z25 8C:/intelFPGA/20.1/GBFA.vhd
+Z26 FC:/intelFPGA/20.1/GBFA.vhd
+l0
+L4 1
+VBSccGC3NSgSO^S?aB_04c2
+!s100 <nFOfRMYSKzQ6<<X9<YlI0
+R6
+32
+R7
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/GBFA.vhd|
+Z28 !s107 C:/intelFPGA/20.1/GBFA.vhd|
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 4 gbfa 0 22 BSccGC3NSgSO^S?aB_04c2
+!i122 62
+l19
+L9 14
+VOT]`7gYB`L2LXeI>kSOAz3
+!s100 [;5DLn1H3lVCXWLCGEPF:1
+R6
+32
+R7
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R11
+R12
+Emult48
+w1630570116
+R2
+R3
+!i122 71
+R0
+Z29 8C:/intelFPGA/20.1/Multiplier.vhd
+Z30 FC:/intelFPGA/20.1/Multiplier.vhd
+l0
+L4 1
+Vm:`lUH3FhDeAIEl]:ZonU2
+!s100 Vze?XPAb?Qg=3lO]>=zne0
+R6
+32
+!s110 1630570120
+!i10b 1
+!s108 1630570119.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/Multiplier.vhd|
+Z32 !s107 C:/intelFPGA/20.1/Multiplier.vhd|
+!i113 1
+R11
+R12
+Emult4x8
+Z33 w1630573831
+R2
+R3
+!i122 76
+R0
+R29
+R30
+l0
+L4 1
+V_CHmFX?F@6CgAf`jcGmGJ3
+!s100 36^@LngaWZJPf9]]aciff0
+R6
+32
+Z34 !s110 1630573838
+!i10b 1
+Z35 !s108 1630573838.000000
+R31
+R32
+!i113 1
+R11
+R12
+Away1
+R2
+R3
+Z36 DEx4 work 7 mult4x8 0 22 _CHmFX?F@6CgAf`jcGmGJ3
+!i122 76
+l25
+Z37 L11 27
+V8=lcR33fFMRHSGGh:jofB3
+!s100 8OB@lXjKJA3@H8Wo?8d`m2
+R6
+32
+R34
+!i10b 1
+R35
+R31
+R32
+!i113 1
+R11
+R12
