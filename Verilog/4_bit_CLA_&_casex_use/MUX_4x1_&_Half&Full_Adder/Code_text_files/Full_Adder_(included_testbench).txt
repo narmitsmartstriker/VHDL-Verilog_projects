@@ -1,0 +1,56 @@
+
+Full Adder code :
+
+module full_adder(
+    input A,
+    input B,
+    input C,
+    output Sum,
+    output Carry
+    );
+    wire s1,s2;
+    wire c1,c2;
+    
+    half_adder ha0(A,B,s1,c1);   //s1 = A xor B , c1 = A and B
+    half_adder ha1(s1,C,Sum,c2);   //Sum = A xor B xor C,   c2 = (A xor B) & C
+    or(Carry,c1,c2);    //Carry = (A and B ) or ( ( A xor B ) & C)
+    
+    
+    
+    
+endmodule
+
+
+
+
+
+
+
+Full Adder testbench code:
+
+
+
+
+module test_fa;
+ reg A,B,C;  //inputs
+ wire Sum,Cout;  //outputs
+ 
+ 
+ //full_adder under test
+ full_adder uut(
+  .A(A), .B(B),.C(C), .Sum(Sum), .Carry(Cout)
+  );
+  
+  initial begin
+  C = 1'b0; A = 1'b0; B = 1'b0;  //initializing values to inputs
+#10; C = 0; A = 0; B = 1;  //after 10 seconds we change our input values
+#10; C = 0; A = 1; B = 0;
+#10; C = 0; A = 1; B = 1;
+#10; C = 1; A = 0; B = 0;
+#10; C = 1; A = 0; B = 1;
+#10; C = 1; A = 1; B = 0;
+#10; C = 1; A = 1; B = 1;
+
+  
+  end 
+  endmodule
