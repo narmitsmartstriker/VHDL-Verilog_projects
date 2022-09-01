@@ -1,0 +1,34 @@
+# Reading pref.tcl
+project open C:/intelFPGA/20.1/Assignment1
+# Loading project Assignment1
+vsim -gui work.mult4x8
+# vsim -gui work.mult4x8 
+# Start time: 15:23:43 on Sep 02,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mult4x8(way1)
+# Loading work.g8bfa(data1)
+# Loading work.gbfa(struct)
+# Loading work.and2(df)
+# Loading work.fa(behavior)
+add wave -position insertpoint sim:/mult4x8/*
+add wave -position insertpoint sim:/mult4x8/*
+noforce sim:/mult4x8/A
+noforce sim:/mult4x8/B
+noforce sim:/mult4x8/Co
+noforce sim:/mult4x8/P
+noforce sim:/mult4x8/q
+noforce sim:/mult4x8/S0
+noforce sim:/mult4x8/S1
+noforce sim:/mult4x8/S2
+noforce sim:/mult4x8/S3
+noforce sim:/mult4x8/C1
+noforce sim:/mult4x8/C2
+noforce sim:/mult4x8/C3
+noforce sim:/mult4x8/L
+force -freeze sim:/mult4x8/A 10101111 0
+force -freeze sim:/mult4x8/B 0010 0
+run
+force -freeze sim:/mult4x8/B 1100 0
+run

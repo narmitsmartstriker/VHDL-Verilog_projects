@@ -1,0 +1,38 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Mult4X8 is
+port(A: in std_logic_vector(7 downto 0);
+B : in std_logic_vector(3 downto 0);
+Co : out std_logic;
+P:out std_logic_vector(7 downto 0));
+end Mult4X8;
+
+architecture way1 of Mult4X8 is
+signal q: std_logic_vector(3 downto 0);
+signal S0,S1,S2,S3,C1,C2,C3,L: std_logic_vector(7 downto 0);
+
+
+
+component G8BFA is
+port(x,y: in std_logic_vector(7 downto 0);
+Mgate : in std_logic;
+cin : in std_logic;
+sum : out std_logic_vector(7 downto 0);
+cout : out std_logic);
+end component;
+
+begin
+L <= "00000000";
+a1: G8BFA port map(A,L,B(0),'0',S0,q(0));
+C1 <= q(0)&S0 (7 downto 1);
+a2: G8BFA port map(A,C1,B(1),'0',S1,q(1));
+C2 <= q(1)&S1 (7 downto 1);
+a3: G8BFA port map (A,C2,B(2),'0',S2,q(2));
+C3 <= q(2)&S2 (7 downto 1);
+a4: G8BFA port map (A,C3,B(3),'0',S3,q(3));
+
+P <= (q(3) & "0000000") or ("0" & S3(7 downto 1));
+Co <= q(3);
+end way1;
+

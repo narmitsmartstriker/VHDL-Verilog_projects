@@ -1,0 +1,138 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/intelFPGA/20.1
+Eadder_4bit
+Z1 w1631776181
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/intelFPGA/20.1/4bitadder.vhd
+Z5 FC:/intelFPGA/20.1/4bitadder.vhd
+l0
+L4 1
+Viz=X;<:Izg?NIzPDJPDf>0
+!s100 L>ILC2IjLjW_MV8_JHJI;0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1631776203
+!i10b 1
+Z8 !s108 1631776203.000000
+Z9 !s90 -reportprogress|300|-work|work1|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/4bitadder.vhd|
+Z10 !s107 C:/intelFPGA/20.1/4bitadder.vhd|
+!i113 1
+Z11 o-work work1 -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adata1
+R2
+R3
+DEx4 work 10 adder_4bit 0 22 iz=X;<:Izg?NIzPDJPDf>0
+!i122 1
+l20
+L11 16
+VYciZRgAfKLkZSLM44L9I]1
+!s100 W^GbhB`Qf6k_nceC_kbIS0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu
+Z13 w1631777009
+Z14 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z15 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 3
+R0
+Z16 8C:/intelFPGA/20.1/ALU.vhd
+Z17 FC:/intelFPGA/20.1/ALU.vhd
+l0
+L6 1
+Vc0?D1WRdJ26JT[XzlccgI0
+!s100 g6di`z_LfB8:;UJN=Aj]V0
+R6
+32
+Z18 !s110 1631777026
+!i10b 1
+Z19 !s108 1631777026.000000
+Z20 !s90 -reportprogress|300|-work|work1|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/ALU.vhd|
+Z21 !s107 C:/intelFPGA/20.1/ALU.vhd|
+!i113 1
+R11
+R12
+Astructure
+R14
+R15
+R2
+R3
+Z22 DEx4 work 3 alu 0 22 c0?D1WRdJ26JT[XzlccgI0
+!i122 3
+l27
+Z23 L14 56
+Z24 V8:PATA<01L>R_^LHK@Gi:2
+Z25 !s100 A8EG?ooliF1:hN=ZiRT:_3
+R6
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R11
+R12
+Efa
+Z26 w1631776152
+R2
+R3
+!i122 0
+R0
+Z27 8C:/intelFPGA/20.1/FullAdder.vhd
+Z28 FC:/intelFPGA/20.1/FullAdder.vhd
+l0
+L4 1
+Vi6znQ7zdYI>l@<Xg7=>YS2
+!s100 hlAgD?Vh5TagJgdZL[CY53
+R6
+32
+R7
+!i10b 1
+R8
+Z29 !s90 -reportprogress|300|-work|work1|-2002|-explicit|-stats=none|C:/intelFPGA/20.1/FullAdder.vhd|
+Z30 !s107 C:/intelFPGA/20.1/FullAdder.vhd|
+!i113 1
+R11
+R12
+Abehavior
+R2
+R3
+DEx4 work 2 fa 0 22 i6znQ7zdYI>l@<Xg7=>YS2
+!i122 0
+l10
+L9 5
+VDe81Z5eO6L>_6AiE@^NLb3
+!s100 P8WYbJIeo[9W_zc@LTH5:0
+R6
+32
+R7
+!i10b 1
+R8
+R29
+R30
+!i113 1
+R11
+R12
